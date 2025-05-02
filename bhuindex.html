@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>भू CHINTAN | 28 April 2025</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Merriweather', serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #f5f7fa;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 250px 1fr;
+            gap: 30px;
+        }
+        header {
+            grid-column: 1 / -1;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+            border-radius: 10px;
+        }
+        header h1 {
+            font-size: 3rem;
+            font-family: 'Roboto', sans-serif;
+            margin-bottom: 10px;
+        }
+        header h2 {
+            font-size: 1.5rem;
+            font-weight: 400;
+        }
+        nav {
+            grid-column: 1 / -1;
+            background-color: #2c3e50;
+            padding: 10px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .sidebar {
+            position: sticky;
+            top: 20px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar h3 {
+            font-family: 'Roboto', sans-serif;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+        .sidebar ul {
+            list-style: none;
+        }
+        .sidebar li {
+            margin: 10px 0;
+        }
+        .sidebar button {
+            background-color: #2980b9;
+            color: white;
+            border: none;
+            padding: 8px;
+            width: 100%;
+            text-align: left;
+            font-size: 1.1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+            font-family: 'Merriweather', serif;
+        }
+        .sidebar button:hover {
+            background-color: #3498db;
+        }
+        .content {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .content h2 {
+            font-family: 'Roboto', sans-serif;
+            color: #01579b;
+            margin-bottom: 20px;
+        }
+        .content p {
+            margin-bottom: 1.2em;
+        }
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+            .sidebar {
+                position: static;
+                margin-bottom: 20px;
+            }
+            header h1 {
+                font-size: 2rem;
+            }
+            header h2 {
+                font-size: 1.2rem;
+            }
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        /* Article page styles for new windows */
+        .article-page {
+            font-family: 'Merriweather', serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #f5f7fa;
+            padding: 40px;
+        }
+        .article-page .container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: block;
+        }
+        .article-page h1 {
+            color: #01579b;
+            font-family: 'Roboto', sans-serif;
+            margin-bottom: 10px;
+        }
+        .article-page h2 {
+            color: #0277bd;
+            margin-top: 30px;
+        }
+        .article-page h3 {
+            color: #455a64;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        .article-page p {
+            margin-bottom: 1.2em;
+        }
+        .article-page ul, .article-page ol {
+            margin: 1.5em 0;
+            padding-left: 20px;
+        }
+        .article-page blockquote {
+            background-color: #e0f7fa;
+            border-left: 6px solid #00acc1;
+            padding: 15px 20px;
+            margin: 20px 0;
+            font-style: italic;
+        }
+        .creative-corner h1, .creative-corner h2 {
+            color: #2e7d32;
+        }
+        .creative-corner blockquote {
+            background-color: #e8f5e9;
+            border-left: 6px solid #66bb6a;
+        }
+    </style>
+</head>
+<body id="top">
+    <div class="container">
+        <header>
+            <h1>भू CHINTAN</h1>
+            <h2>28 April 2025</h2>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="#top">Home</a></li>
+                <li><a href="#toc">Table of Contents</a></li>
+            </ul>
+        </nav>
+        
+        <aside class="sidebar" id="toc">
+            <h3>Table of Contents</h3>
+            <ul>
+                <li><button onclick="openArticle('brahmaputra')">1. The Brahmaputra Barrier</button></li>
+                <li><button onclick="openArticle('blueflag')">2. Blue Flag Certification for Indian Beaches</button></li>
+                <li><button onclick="openArticle('lupex')">3. Importance of LUPEX Mission (Chandrayaan-5)</button></li>
+                <li><button onclick="openArticle('ewaste')">4. E-waste Tug of War | Creative Corner</button></li>
+                <li><button onclick="openArticle('coldestcapital')">5. The Coldest Capital | Creative Corner</button></li>
+                <li><button onclick="openArticle('hyderabad')">6. Hyderabad Land Row</button></li>
+                <li><button onclick="openArticle('spacedebris')">7. Space Debris</button></li>
+                <li><button onclick="openArticle('haveuheard')">8. Have U Heard? | Creative Corner</button></li>
+            </ul>
+        </aside>
+        
+        <main class="content">
+            <h2>Welcome to भू CHINTAN</h2>
+            <p>Explore our latest issue, featuring in-depth articles on environmental, geographical, and societal issues. Click any article in the Table of Contents to read more in a new window.</p>
+        </main>
+    </div>
+
+    <script>
+        const articles = {
+            brahmaputra: `
+                <h1>The Brahmaputra Barrier: Unpacking the Risks of China’s Brahmaputra Dam</h1>
+                <h3>~ Virali Singh, University of Delhi</h3>
+                <p><strong>Introduction:</strong> China’s 60 GW hydropower dam project in Medog County, Tibet (TAR) near the Great Bend of the Yarlung Zangbo (Brahmaputra in India) has raised serious environmental and geopolitical concerns for India and Bangladesh.</p>
+                <h2>Where is this project?</h2>
+                <p>The Brahmaputra originates in China (Tibet), flows into India, and finally enters Bangladesh. Despite being a transboundary river, each country treats it territorially. China’s dam is located upstream, giving it control over flow volumes into India and Bangladesh.</p>
+                <h2>The Brahmaputra Basin: River Through Borders or Bound By Them?</h2>
+                <p>Countries like China and India have developed massive hydropower infrastructure, viewing rivers as instruments of national strength. China’s Medog Dam, once built, could be used as a geopolitical “water bomb,” according to some Indian analysts. The river is turning into a theater of strategic dominance.</p>
+                <h2>Risks to Riverine Communities</h2>
+                <p>The dam threatens traditional livelihoods, agriculture, and water access in downstream communities. It also risks altering the monsoon-dependent water systems, especially affecting groundwater and surface flows.</p>
+                <h2>The Dam-Building Race</h2>
+                <p>India has proposed its own large dam on the Siang River (a Brahmaputra tributary), while Bhutan continues smaller hydro-projects. There is no comprehensive water-sharing treaty among these nations. India and China do have an Expert Level Mechanism (ELM), but it's insufficient.</p>
+                <h2>What Can Be Done?</h2>
+                <ol>
+                    <li><strong>Bilateral Treaty on Water-Sharing:</strong> Agreements on minimum flows, emergency coordination, and transparency are vital.</li>
+                    <li><strong>Strengthening ELM:</strong> Transform it into a joint institution with early warning systems and joint data platforms.</li>
+                    <li><strong>Ecosystem-Based Approaches:</strong> Joint ecological monitoring of the Himalayas can replace competitive infrastructure building.</li>
+                    <li><strong>Smart Hydropower:</strong> Consider joint projects that share energy, mitigate floods, and create regional energy grids.</li>
+                    <li><strong>Climate Adaptation:</strong> Coordinate dam releases to align with changing hydrology due to climate change.</li>
+                    <li><strong>Community Involvement:</strong> Engage civil society, local populations, and academics in transparent dialogue.</li>
+                </ol>
+                <blockquote>
+                    “नदियाँ केवल जल नहीं बहातीं, अपितु जीवन को भी संग ले चलती हैं।”<br>– भू CHINTAN
+                </blockquote>
+                <h2>Conclusion</h2>
+                <p>China’s Brahmaputra megadam could become a source of conflict unless countered with cooperation. India, Bangladesh, and China must adopt a future-oriented view—seeing the Brahmaputra as a shared ecosystem rather than a source of power. Strengthening regional institutions, building scientific collaborations, and involving people at the grassroots can convert a water war into a water partnership.</p>
+                <p><em>Published in भू CHINTAN | 28 April 2025</em></p>
+            `,
+            blueflag: `
+                <h1>Blue Flag Certification for Indian Beaches</h1>
+                <h3>~ Akshita Mishra, University of Delhi</h3>
+                <p><strong>Introduction:</strong> The Blue Flag Certification, an international recognition by the Foundation for Environmental Education (FEE), is awarded to beaches that meet rigorous standards of cleanliness, safety, and sustainability. India currently boasts 13 such certified beaches, including Rushikonda in Andhra Pradesh, which recently regained the tag.</p>
+                <h2>What is the Blue Flag Programme?</h2>
+                <p>Started by FEE and headquartered in Denmark, the programme promotes sustainable coastal tourism and clean, eco-friendly beaches. More than 5,000 beaches across the world are certified under it. To qualify, a beach must meet 33 strict criteria grouped into:</p>
+                <ul>
+                    <li>Environmental Education and Information</li>
+                    <li>Water Quality</li>
+                    <li>Environmental Management</li>
+                    <li>Safety and Services</li>
+                </ul>
+                <h2>Stakeholders and Evaluation</h2>
+                <p>An international jury comprising the IUCN, UNWTO, UNEP, and FEE assesses compliance. Indian beaches are evaluated under the BEAMS initiative of the ICZM Project by the Ministry of Environment, Forest and Climate Change.</p>
+                <h2>Certified Blue Flag Beaches in India</h2>
+                <ul>
+                    <li>Shivrajpur – Gujarat</li>
+                    <li>Ghoghla – Diu</li>
+                    <li>Kasarkod and Padubidri – Karnataka</li>
+                    <li>Kappad – Kerala</li>
+                    <li>Rushikonda – Andhra Pradesh</li>
+                    <li>Golden and Chandrabhaga – Odisha</li>
+                    <li>Radhanagar – Andaman and Nicobar Islands</li>
+                    <li>Kovalam – Tamil Nadu</li>
+                    <li>Eden Beach – Puducherry</li>
+                    <li>Thundi and Kadmat – Lakshadweep Islands</li>
+                </ul>
+                <h2>In the News</h2>
+                <p>Rushikonda Beach regained its certification after losing it due to maintenance lapses. This highlights the dynamic nature of the award—it is not permanent but must be sustained through continuous efforts in management and community participation.</p>
+                <h2>National Efforts</h2>
+                <p>Under the BEAMS programme, India is taking active steps to maintain beach ecosystems, reduce pollution and erosion, and improve tourist infrastructure—all while supporting sustainable development goals (SDGs).</p>
+                <blockquote>
+                    “A Blue Flag is not just a piece of cloth. It’s a promise—of safety, sustainability, and pride.”
+                </blockquote>
+                <h2>Conclusion</h2>
+                <p>The Blue Flag initiative has helped India showcase its commitment to clean, eco-sensitive tourism. It sets a benchmark for other coastal states to improve and maintain their beach environments. Encouraging awareness among locals and tourists alike is essential to keep our shores beautiful and globally recognized.</p>
+                <p><em>Published in भू CHINTAN | 28 April 2025</em></p>
+            `,
+            lupex: `
+                <h1>Importance of LUPEX Mission (Chandrayaan-5)</h1>
+                <h3>~ Nihar Ranjan Sahoo, Ravenshaw University</h3>
+                <p><strong>Introduction:</strong> The LUPEX Mission, also known as Chandrayaan-5, is a major joint lunar exploration initiative by ISRO and JAXA, with contributions from NASA and ESA. It aims to explore the Moon's south polar region to assess the availability of water and study the lunar surface environment for future human habitation.</p>
+                <h2>India’s Lunar Journey</h2>
+                <p>India began its lunar exploration with Chandrayaan-1 in 2008. Chandrayaan-2 followed in 2019, and Chandrayaan-3 achieved a historic soft landing on the Moon’s south pole in 2023, making India the first country to do so. Chandrayaan-4 is planned as a sample return mission, and LUPEX (Chandrayaan-5) will build upon these milestones.</p>
+                <h2>What is LUPEX Mission?</h2>
+                <p>LUPEX (Lunar Polar Exploration) is a collaboration between ISRO (lander) and JAXA (rover). The rover will weigh 350 kg, significantly heavier than Chandrayaan-3’s Pragyan, and will carry advanced instruments for autonomous exploration and water detection.</p>
+                <h2>Objectives of LUPEX</h2>
+                <ul>
+                    <li>Search for water ice in the Moon’s south pole region.</li>
+                    <li>Study lunar soil (regolith) using drills and spectrometers.</li>
+                    <li>Support future long-duration lunar missions and possible human habitats.</li>
+                    <li>Test technology for long-term robotic missions.</li>
+                </ul>
+                <h2>International Collaboration</h2>
+                <p>LUPEX integrates instruments from multiple space agencies:</p>
+                <ul>
+                    <li><strong>ISRO:</strong> Ground Penetrating Radar, Mid-IR Spectrometer, Raman Spectrometer</li>
+                    <li><strong>JAXA:</strong> REIWA Analyzer, ALIS Spectrometer</li>
+                    <li><strong>NASA:</strong> Neutron Spectrometer (NS)</li>
+                    <li><strong>ESA:</strong> Exospheric Mass Spectrometer (EMS-L)</li>
+                </ul>
+                <h2>Why the South Pole?</h2>
+                <p>The south pole of the Moon is believed to contain permanently shadowed craters that may host water ice. Water is essential for drinking, fuel production, and supporting life. Exploring this region could make human settlement on the Moon feasible.</p>
+                <h2>Significance</h2>
+                <p>LUPEX is not just another lunar mission—it is a leap toward sustainable lunar exploration. With a 100-day expected mission duration, LUPEX will pave the way for advanced space research, technology development, and inter-agency collaboration.</p>
+                <blockquote>
+                    “The Moon is no longer a distant dream—it is a future destination. LUPEX is our map.”
+                </blockquote>
+                <h2>Conclusion</h2>
+                <p>LUPEX is a bold step forward for India and Japan in space exploration. By unlocking the secrets of lunar water, it supports future human presence on the Moon. This mission marks a new era of international cooperation, scientific innovation, and India's rising role in the global space community.</p>
+                <p><em>Published in भू CHINTAN | 28 April 2025</em></p>
+            `,
+            ewaste: `
+                <div class="creative-corner">
+                    <h1>E-waste Tug of War – Corporate vs Environmental Interest</h1>
+                    <h3>~ Himanshu Aggarwal, University of Delhi</h3>
+                    <p><strong>Introduction:</strong> As digital consumption skyrockets, e-waste has emerged as one of the fastest-growing waste streams globally. While corporations push rapid innovation cycles and product obsolescence, the environmental costs—especially in developing nations like India—are becoming untenable.</p>
+                    <h2>What is E-waste?</h2>
+                    <p>E-waste includes discarded electronic devices: smartphones, computers, TVs, refrigerators, and more. It often contains hazardous materials like lead, cadmium, and mercury, making improper disposal dangerous to both health and environment.</p>
+                    <h2>Corporate Push vs Environmental Reality</h2>
+                    <p>Corporates promote frequent upgrades, incentivizing consumers to discard functioning gadgets. On the other hand, environmental concerns demand circular economy practices—reuse, repair, and recycle—to reduce toxic impact and resource exploitation.</p>
+                    <h2>Current Situation in India</h2>
+                    <ul>
+                        <li>India is the 3rd largest e-waste generator in the world.</li>
+                        <li>Only about 10-20% of e-waste is formally recycled.</li>
+                        <li>Informal sector handles the bulk, using unsafe methods like acid baths and open burning.</li>
+                    </ul>
+                    <p>While EPR (Extended Producer Responsibility) laws exist, enforcement remains weak. Lack of awareness, poor infrastructure, and resistance from companies hinder real progress.</p>
+                    <h2>Environmental Consequences</h2>
+                    <ul>
+                        <li>Soil and water contamination from heavy metals.</li>
+                        <li>Air pollution due to burning plastic components.</li>
+                        <li>Health hazards for informal workers—many are women and children.</li>
+                    </ul>
+                    <h2>Case Study: Seelampur, Delhi</h2>
+                    <p>Seelampur is India’s largest informal e-waste recycling hub. Despite providing livelihoods, it exposes workers to toxic fumes, and the surrounding ecology suffers irreversible damage.</p>
+                    <blockquote>
+                        “Every time we upgrade, someone else breathes in poison to dismantle our old tech.”
+                    </blockquote>
+                    <h2>Possible Solutions</h2>
+                    <ul>
+                        <li>Strengthening EPR and penalizing non-compliance.</li>
+                        <li>Creating formal collection and recycling centers.</li>
+                        <li>Incentivizing eco-design and longer product life cycles.</li>
+                        <li>Raising consumer awareness on e-waste hazards and disposal.</li>
+                    </ul>
+                    <h2>Conclusion</h2>
+                    <p>The e-waste crisis reveals the underlying conflict between profit and sustainability. Corporations must be held accountable through stronger laws and citizen pressure. A shift toward responsible production and consumption is not optional—it’s essential for ecological survival and justice for those bearing the hidden costs of our digital lives.</p>
+                    <p><em>Published in भू CHINTAN | 28 April 2025</em></p>
+                </div>
+            `,
+            coldestcapital: `
+                <div class="creative-corner">
+                    <h1>The Coldest Capital</h1>
+                    <h3>~ Creative Corner</h3>
+                    <p><strong>Introduction:</strong> When we think of national capitals, we often picture bustling cities with mild climates and political activity. But one capital stands out—not just politically or historically, but for its extreme weather. This is the story of the world’s coldest capital city and the hidden crisis it faces.</p>
+                    <h2>Which City Are We Talking About?</h2>
+                    <p><strong>Ulaanbaatar</strong>, the capital of Mongolia, holds the title of the coldest capital city on Earth. Winter temperatures often plunge below –40°C, and the city remains frozen for much of the year. Yet, nearly half of Mongolia’s population lives here, enduring the harsh climate out of necessity, tradition, and hope.</p>
+                    <h2>The Winter Challenge</h2>
+                    <p>To fight off the cold, most residents in the outskirts—known as the Ger Districts—burn coal and wood in rudimentary stoves. While this provides heat, it fills the air with thick, toxic smog that engulfs the city every winter.</p>
+                    <h2>The Hidden Crisis</h2>
+                    <p>Ironically, the cold that protects Ulaanbaatar from tropical diseases also chokes it with pollution. The capital often ranks among the most polluted cities in the world during winter. Respiratory diseases, especially among children, are alarmingly common.</p>
+                    <blockquote>
+                        “Warmth, here, is a double-edged sword. It saves lives—and then silently takes them away.”
+                    </blockquote>
+                    <h2>Why Is It Happening?</h2>
+                    <ul>
+                        <li>Extreme cold leads to high heating demands.</li>
+                        <li>Reliance on raw coal in stoves, due to lack of central heating.</li>
+                        <li>Limited access to cleaner energy for the growing urban population.</li>
+                        <li>Temperature inversions trap pollutants close to the ground.</li>
+                    </ul>
+                    <h2>Possible Solutions</h2>
+                    <ul>
+                        <li>Subsidizing clean heating alternatives like electric heaters and processed fuel.</li>
+                        <li>Urban planning to integrate ger districts into central heating grids.</li>
+                        <li>Expanding green zones to buffer pollution.</li>
+                        <li>Public health initiatives focusing on respiratory care and awareness.</li>
+                    </ul>
+                    <h2>Conclusion</h2>
+                    <p>The coldest capital on Earth reveals a paradox—where surviving the freeze comes at the cost of clean air. It’s a crisis of adaptation and equity, of geography and governance. As climate challenges pree globally, cities like Ulaanbaatar remind us that solutions must balance tradition, technology, and above all, human well-being.</p>
+                    <p><em>Published in भू CHINTAN | 28 April 2025</em></p>
+                </div>
+            `,
+            hyderabad: `
+                <h1>Hyderabad Land Row: Political Problem or True Threat</h1>
+                <h3>~ Zeeshan Ansari, Cambridge School, Greater Noida</h3>
+                <p><strong>Introduction:</strong> The Hyderabad land controversy, involving a proposed auction of 400 acres near the University of Hyderabad, has ignited a storm of protests, political debate, and ecological concern. The land in question is rich in biodiversity and has served as a research and green space for decades.</p>
+                <h2>University Students’ Stand</h2>
+                <p>Faculty and students view the area as a natural laboratory. They’ve conducted biodiversity studies and filed legal petitions. Their slogan is clear: “Don’t erase the future for short-term gains.” Their activism underscores the land’s academic and ecological value.</p>
+                <h2>Through a Political Lens</h2>
+                <p>The Congress-led Telangana government defends the auction as part of a broader development strategy. The opposition party BRS condemns it as short-sighted and destructive. The conflict represents a clash between economic ambitions and environmental ethics.</p>
+                <h2>The Issue</h2>
+                <p>The land, located in Kancha Gachibowli, borders the University of Hyderabad. It houses unique rock formations, wildlife, and greenery. The government claims ownership and plans industrial and IT infrastructure development. The university community recalls it as part of their campus legacy.</p>
+                <h2>Government’s Stand</h2>
+                <p>Officials state that the land remains under the Revenue Department and has been allotted to the Telangana State Industrial Infrastructure Corporation (TSIIC). They propose sustainable development and even an eco-park, but critics label this greenwashing.</p>
+                <h2>Legal and Judicial Response</h2>
+                <p>Legal challenges have reached the Supreme Court, which temporarily halted activity on the land. It cited the absence of Environmental Impact Assessments (EIA) and questioned the tree felling. The Telangana High Court had previously issued similar stays.</p>
+                <h2>Ecological Concerns</h2>
+                <p>Surveys reveal the presence of:</p>
+                <ul>
+                    <li>730+ plant species</li>
+                    <li>230+ bird species</li>
+                    <li>Diverse reptiles, mammals, and insects</li>
+                </ul>
+                <p>The area acts as a natural barrier against floods and heatwaves—critical in a rapidly urbanizing city like Hyderabad.</p>
+                <blockquote>
+                    “When a university loses its land, it loses a part of its future. When a forest falls, so does the balance of the city.”
+                </blockquote>
+                <h2>Conclusion</h2>
+                <p>The Hyderabad land row is more than a legal or political issue—it’s a test of what we prioritize as a society. Economic growth must not come at the cost of biodiversity and education. This case is a call for urban planning that respects environmental heritage and public sentiment.</p>
+                <p><em>Published in भू CHINTAN | 28 April 2025</em></p>
+            `,
+            spacedebris: `
+                <h1>Space Debris</h1>
+                <h3>~ Shreya Dhananjay Nirhale, University of Delhi</h3>
+                <p><strong>Introduction:</strong> Space debris, or "space junk," refers to non-functional human-made objects orbiting the Earth. These can range from broken satellites to tiny paint flecks—and they pose a growing threat to satellites, astronauts, and global communication systems.</p>
+                <h2>What is Space Junk?</h2>
+                <p>It includes dead satellites, discarded rocket stages, and fragments from explosions or collisions. Though small, even millimetre-sized debris can cause catastrophic damage due to their high velocity.</p>
+                <h2>Magnitude of the Problem</h2>
+                <ul>
+                    <li>34,000+ fragments larger than 10 cm</li>
+                    <li>1 million+ fragments 1–10 cm</li>
+                    <li>130 million+ smaller than 1 cm</li>
+                </ul>
+                <p>These objects travel at speeds exceeding 28,000 km/h, turning even the smallest piece into a deadly projectile.</p>
+                <blockquote>
+                    “The universe is infinite, but space is not. Rockets are launching, debris is gathering. It’s time to clean up.”<br>– S. Thuy Nguyen-Onstott
+                </blockquote>
+                <h2>Why It Matters Geographically</h2>
+                <ul>
+                    <li>Threatens GPS, telecom, and weather satellites.</li>
+                    <li>Disrupts global services and emergency communication.</li>
+                    <li>Contributes to long-term pollution in Earth’s orbit.</li>
+                </ul>
+                <h2>Key Risks</h2>
+                <ul>
+                    <li><strong>Collision Risk:</strong> High-speed debris can destroy space assets.</li>
+                    <li><strong>Kessler Syndrome:</strong> One collision causes more debris, leading to a cascade of collisions.</li>
+                    <li><strong>Cost Increase:</strong> Missions need extra shielding and fuel for collision avoidance.</li>
+                    <li><strong>Climate Effects:</strong> Cooler upper atmosphere slows debris decay—extends orbital life.</li>
+                </ul>
+                <h2>India’s Efforts</h2>
+                <ul>
+                    <li><strong>IS4OM:</strong> India’s system for tracking space objects and debris threats (2022).</li>
+                    <li><strong>Project NETRA:</strong> Tracks objects as small as 10 cm within 3400 km range.</li>
+                    <li><strong>Collision Avoidance Maneuvers:</strong> ISRO has performed 21 in 2022 alone.</li>
+                    <li><strong>Megha-Tropiques-1:</strong> Brought down in a controlled manner post-mission.</li>
+                </ul>
+                <h2>Global Solutions</h2>
+                <ul>
+                    <li>Better tracking systems and space traffic coordination.</li>
+                    <li>Using reusable launch vehicles.</li>
+                    <li>Tech like harpoons, magnets, lasers to remove debris.</li>
+                    <li>International treaties enforcing debris mitigation guidelines (e.g., IADC, 2002).</li>
+                </ul>
+                <h2>Conclusion</h2>
+                <p>Space debris is no longer a futuristic worry—it’s a real and urgent problem. As we rely more on satellites, managing orbital space becomes essential. With innovation, regulation, and cooperation, we can ensure space remains a shared and sustainable frontier.</p>
+                <p><em>Published in भू CHINTAN | 28 April 2025</em></p>
+            `,
+            haveuheard: `
+                <div class="creative-corner">
+                    <h1>Have U Heard?</h1>
+                    <h3>~ Utkarsh Patel, University of Delhi</h3>
+                    <p><strong>Creative Corner – A Poetic Reflection:</strong></p>
+                    <blockquote>
+                        Have you heard?<br>
+                        The voice of the forest<br>
+                        No rest, raising the chest<br>
+                        The wish isn't lavish
+                    </blockquote>
+                    <blockquote>
+                        Ever thought where sparrows vanished?<br>
+                        Why the sorrows banished?<br>
+                        Lived among us in flocks then<br>
+                        Now, left with only a few across the ocean
+                    </blockquote>
+                    <blockquote>
+                        The forest whisper through green, a sigh<br>
+                        But it deepens like a cry<br>
+                        Forest weeps<br>
+                        Tears seeps
+                    </blockquote>
+                    <blockquote>
+                        Every tree, every branch had sung the song<br>
+                        They asked whether they had wrong<br>
+                        Everything is dark and grey<br>
+                        Listen the song, the way<br>
+                        And the message they convey
+                    </blockquote>
+                    <blockquote>
+                        Have U heard?<br>
+                        Jadav or Salim<br>
+                        Whose words led the forest's gleam<br>
+                        Buds and sprouts are seen<br>
+                        Wangari's belt is green 💚
+                    </blockquote>
+                    <p><strong>Message:</strong> This creative piece reminds us of the voices of nature that are often ignored in the race for development. It draws attention to environmental warriors—Jadav Payeng, Salim Ali, and Wangari Maathai—who devoted their lives to protecting biodiversity and raising awareness. The poem calls on us to stop, listen, and act.</p>
+                    <p><em>Published in भू CHINTAN | 28 April 2025</em></p>
+                </div>
+            `
+        };
+
+        function openArticle(id) {
+            const articleContent = articles[id];
+            const articleHtml = `
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>भू CHINTAN | ${id.charAt(0).toUpperCase() + id.slice(1)}</title>
+                    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+                    <style>
+                        body {
+                            font-family: 'Merriweather', serif;
+                            line-height: 1.8;
+                            color: #333;
+                            background-color: #f5f7fa;
+                            padding: 40px;
+                        }
+                        .container {
+                            max-width: 800px;
+                            margin: 0 auto;
+                            background-color: #ffffff;
+                            padding: 30px;
+                            border-radius: 10px;
+                            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                        }
+                        h1 {
+                            color: #01579b;
+                            font-family: 'Roboto', sans-serif;
+                            margin-bottom: 10px;
+                        }
+                        h2 {
+                            color: #0277bd;
+                            margin-top: 30px;
+                        }
+                        h3 {
+                            color: #455a64;
+                            font-style: italic;
+                            margin-bottom: 10px;
+                        }
+                        p {
+                            margin-bottom: 1.2em;
+                        }
+                        ul, ol {
+                            margin: 1.5em 0;
+                            padding-left: 20px;
+                        }
+                        blockquote {
+                            background-color: #e0f7fa;
+                            border-left: 6px solid #00acc1;
+                            padding: 15px 20px;
+                            margin: 20px 0;
+                            font-style: italic;
+                        }
+                        .creative-corner h1, .creative-corner h2 {
+                            color: #2e7d32;
+                        }
+                        .creative-corner blockquote {
+                            background-color: #e8f5e9;
+                            border-left: 6px solid #66bb6a;
+                        }
+                    </style>
+                </head>
+                <body class="article-page">
+                    <div class="container">
+                        ${articleContent}
+                    </div>
+                </body>
+                </html>
+            `;
+            const newWindow = window.open('', '_blank');
+            newWindow.document.write(articleHtml);
+            newWindow.document.close();
+        }
+    </script>
+</body>
+</html>
